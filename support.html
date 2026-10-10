@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wsparcie | 50Groszy</title>
+<meta name="description" content="Pomoc i kontakt dla aplikacji 50Groszy.">
+<style>
+  :root{color-scheme:dark;--bg:#07261A;--surface:#0E3626;--ink:#FFF5DC;--soft:#A9C2B3;--accent:#FFC833;--border:#245E45;--coral:#FF7A59;--on:#1A1A0A}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:"Grandstander",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;font-size:17px;line-height:1.6;-webkit-text-size-adjust:100%}
+  body:before{content:"";position:fixed;inset:0;z-index:-1;background:radial-gradient(60% 40% at 90% -5%,rgba(255,200,51,.16),transparent 70%),radial-gradient(60% 45% at -5% 105%,rgba(38,160,100,.28),transparent 70%)}
+  .wrap{max-width:720px;margin:0 auto;padding:28px 20px 56px}
+  nav{display:flex;gap:18px;flex-wrap:wrap;align-items:center;margin-bottom:36px;font-weight:800}
+  nav a{color:var(--ink);text-decoration:none}nav a:hover,nav a[aria-current]{color:var(--accent)}
+  nav .brand{margin-right:auto;font-size:20px;display:flex;align-items:center;gap:10px}
+  .coin{width:30px;height:30px;border-radius:50%;background:linear-gradient(160deg,#FFD34D,#F2A50F);color:#1a1a0a;display:inline-flex;align-items:center;justify-content:center;font-weight:900;font-size:13px;box-shadow:0 0 0 2px #B9780A inset}
+  h1{font-size:clamp(30px,7vw,44px);line-height:1.12;margin:0 0 10px;letter-spacing:-.01em;text-wrap:balance;color:var(--accent)}
+  h2{font-size:21px;margin:34px 0 8px}
+  p,li{color:var(--ink)}p{margin:0 0 14px}ul{padding-left:22px;margin:0 0 14px}li{margin-bottom:6px}
+  .lead{font-size:19px;color:var(--soft);margin-bottom:26px}
+  .updated{font-size:13px;font-weight:700;color:var(--soft);margin:0 0 24px}
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:18px 20px;margin:0 0 20px}
+  .card strong{color:var(--accent)}
+  a{color:var(--accent)}
+  .btn{display:inline-block;padding:13px 26px;border-radius:999px;background:linear-gradient(180deg,#FFD34D,#F5A90E);color:var(--on);font-weight:900;text-decoration:none}
+  .btns{display:flex;gap:12px;flex-wrap:wrap;margin:0 0 22px}
+  .btn.ghost{background:var(--surface);color:var(--ink);border:1px solid var(--border)}
+  .grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));margin:0 0 24px}
+  .grid .card{margin:0}.grid h3{margin:0 0 6px;font-size:17px;color:var(--accent)}.grid p{margin:0;color:var(--soft);font-size:15px}
+  details{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:14px 18px;margin:0 0 10px}
+  summary{cursor:pointer;font-weight:800}details p{margin:10px 0 0;color:var(--soft)}
+  footer{margin-top:44px;color:var(--soft);font-size:13px;display:flex;gap:16px;flex-wrap:wrap}
+  footer a{color:var(--soft)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav><a class="brand" href="index.html"><span class="coin">50</span>50Groszy</a><a href="privacy.html">Prywatność</a><a href="support.html" aria-current="page">Wsparcie</a></nav>
+
+  <h1>Wsparcie</h1>
+  <p class="lead">Masz pytanie, pomysł albo znalazłeś błąd w 50Groszy? Napisz, odpowiadam na każdą wiadomość.</p>
+  <div class="btns">
+    <a class="btn" href="mailto:marcin.polak@ideaapps.io?subject=50Groszy">Napisz e-mail</a>
+    <a class="btn ghost" href="privacy.html">Polityka prywatności</a>
+  </div>
+  <p>E-mail: <a href="mailto:marcin.polak@ideaapps.io">marcin.polak@ideaapps.io</a>. Przy zgłoszeniu błędu podaj proszę wersję aplikacji i wersję iOS.</p>
+
+  <h2>Najczęstsze pytania</h2>
+  <details><summary>Jak policzyć stawkę?</summary><p>Dotknij monety na dole, gdy staniesz w kolejce, a po oddaniu butelek dotknij jej jeszcze raz. Wpisz kwotę z paragonu albo zrób mu zdjęcie. Aplikacja podzieli kwotę przez czas spędzony w kolejce (bez pauz) i pokaże stawkę na godzinę.</p></details>
+  <details><summary>Musiałem wyjść z kolejki na chwilę</summary><p>Użyj przycisku „Wyskoczyłem na chwilę". Stoper stanie i nie wliczy przerwy do stawki. Po powrocie dotknij „Wracam do kolejki".</p></details>
+  <details><summary>Butelkomat był pełny albo nieczynny</summary><p>Dotknij „Nic z tego…" i wybierz, co się stało. Kolejka zapisze się z 0 zł i będzie liczyła się do średniej. Jeśli to była pomyłka, wybierz „Pomyłka", a nic się nie zapisze.</p></details>
+  <details><summary>Jak aplikacja liczy liczbę butelek?</summary><p>Przyjmujemy 50 groszy za butelkę, więc liczba butelek to kwota podzielona przez 0,50 zł. To tylko podpowiedź, zawsze możesz ją poprawić na linijce.</p></details>
+  <details><summary>Jak zmienić stawkę z godziny na minutę albo sekundę?</summary><p>W menu „Więcej" (trzy kropki w prawym górnym rogu) wybierz w ustawieniach „Godzina", „Minuta" lub „Sekunda".</p></details>
+  <details><summary>Jak usunąć wpis z historii?</summary><p>Przesuń wpis w lewo w zakładce Historia.</p></details>
+  <details><summary>Stoper działa, gdy zamknę aplikację?</summary><p>Tak. Czas startu jest zapamiętany, a stoper widać na ekranie blokady i w Dynamic Island. Stamtąd możesz też wstrzymać go albo zakończyć.</p></details>
+  <details><summary>Gdzie są moje dane i czy zniknęły po zmianie telefonu?</summary><p>Dane są tylko na urządzeniu, bez konta i chmury aplikacji. Przy przenoszeniu na nowy telefon trafią tam razem z kopią zapasową iCloud lub komputera, jeśli ją masz. Usunięcie aplikacji usuwa dane.</p></details>
+  <details><summary>Czy muszę coś płacić? Do czego służy „Postaw kaucję"?</summary><p>Nie. Aplikacja jest w pełni darmowa. „Postaw kaucję" to dobrowolna, jednorazowa wpłata dla twórcy na rozwój aplikacji. Niczego nie odblokowuje i nic nie zmienia w działaniu aplikacji.</p></details>
+  <details><summary>Zdjęcie paragonu nie odczytało kwoty</summary><p>Zrób zdjęcie na płasko, przy dobrym świetle, tak żeby kwota do wypłaty była ostra. Zawsze możesz też wpisać kwotę ręcznie.</p></details>
+  <footer><span>© 2026 ideaapps.io</span><a href="privacy.html">Polityka prywatności</a><a href="support.html">Wsparcie</a></footer>
+</div>
+</body>
+</html>

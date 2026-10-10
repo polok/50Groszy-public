@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>50Groszy: stoper do butelkomatu</title>
+<meta name="description" content="50Groszy liczy, ile czasu stoisz w kolejce do butelkomatu, i ile naprawdę zarabiasz na kaucji na godzinę. Z przymrużeniem oka.">
+<style>
+  :root{color-scheme:dark;--bg:#07261A;--surface:#0E3626;--ink:#FFF5DC;--soft:#A9C2B3;--accent:#FFC833;--border:#245E45;--coral:#FF7A59;--on:#1A1A0A}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:"Grandstander",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;font-size:17px;line-height:1.6;-webkit-text-size-adjust:100%}
+  body:before{content:"";position:fixed;inset:0;z-index:-1;background:radial-gradient(60% 40% at 90% -5%,rgba(255,200,51,.16),transparent 70%),radial-gradient(60% 45% at -5% 105%,rgba(38,160,100,.28),transparent 70%)}
+  .wrap{max-width:720px;margin:0 auto;padding:28px 20px 56px}
+  nav{display:flex;gap:18px;flex-wrap:wrap;align-items:center;margin-bottom:36px;font-weight:800}
+  nav a{color:var(--ink);text-decoration:none}nav a:hover,nav a[aria-current]{color:var(--accent)}
+  nav .brand{margin-right:auto;font-size:20px;display:flex;align-items:center;gap:10px}
+  .coin{width:30px;height:30px;border-radius:50%;background:linear-gradient(160deg,#FFD34D,#F2A50F);color:#1a1a0a;display:inline-flex;align-items:center;justify-content:center;font-weight:900;font-size:13px;box-shadow:0 0 0 2px #B9780A inset}
+  h1{font-size:clamp(30px,7vw,44px);line-height:1.12;margin:0 0 10px;letter-spacing:-.01em;text-wrap:balance;color:var(--accent)}
+  h2{font-size:21px;margin:34px 0 8px}
+  p,li{color:var(--ink)}p{margin:0 0 14px}ul{padding-left:22px;margin:0 0 14px}li{margin-bottom:6px}
+  .lead{font-size:19px;color:var(--soft);margin-bottom:26px}
+  .updated{font-size:13px;font-weight:700;color:var(--soft);margin:0 0 24px}
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:18px 20px;margin:0 0 20px}
+  .card strong{color:var(--accent)}
+  a{color:var(--accent)}
+  .btn{display:inline-block;padding:13px 26px;border-radius:999px;background:linear-gradient(180deg,#FFD34D,#F5A90E);color:var(--on);font-weight:900;text-decoration:none}
+  .btns{display:flex;gap:12px;flex-wrap:wrap;margin:0 0 22px}
+  .btn.ghost{background:var(--surface);color:var(--ink);border:1px solid var(--border)}
+  .grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));margin:0 0 24px}
+  .grid .card{margin:0}.grid h3{margin:0 0 6px;font-size:17px;color:var(--accent)}.grid p{margin:0;color:var(--soft);font-size:15px}
+  details{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:14px 18px;margin:0 0 10px}
+  summary{cursor:pointer;font-weight:800}details p{margin:10px 0 0;color:var(--soft)}
+  footer{margin-top:44px;color:var(--soft);font-size:13px;display:flex;gap:16px;flex-wrap:wrap}
+  footer a{color:var(--soft)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav><a class="brand" href="index.html"><span class="coin">50</span>50Groszy</a><a href="privacy.html">Prywatność</a><a href="support.html">Wsparcie</a></nav>
+
+  <h1>Ile naprawdę zarabiasz na kaucji?</h1>
+  <p class="lead">Wszyscy liczą, ile wyciągnęli z butelkomatu. 50Groszy liczy też czas w kolejce i dzieli jedno przez drugie. Wychodzi stawka na godzinę, zwykle zabawna.</p>
+  <div class="btns">
+    <a class="btn" href="https://apps.apple.com/app/id6821369029">Pobierz w App Store</a>
+    <a class="btn ghost" href="support.html">Wsparcie</a>
+    <a class="btn ghost" href="privacy.html">Polityka prywatności</a>
+  </div>
+  <div class="grid">
+    <div class="card"><h3>Stoper z butelką</h3><p>Dotykasz monety i czas leci. Butelka napełnia się co 10 minut. Pauza, gdy musisz wyskoczyć.</p></div>
+    <div class="card"><h3>Stawka na godzinę</h3><p>Kwota z paragonu i czas w kolejce dają stawkę oraz ironiczny werdykt. Na godzinę, minutę albo sekundę.</p></div>
+    <div class="card"><h3>Paragon ze zdjęcia</h3><p>Aplikacja odczyta kwotę i kod z paragonu. Zdjęcie zostaje na telefonie.</p></div>
+    <div class="card"><h3>Pełny butelkomat?</h3><p>Kolejka bez kasy też się liczy: pełny automat, awaria albo „mam dość”.</p></div>
+    <div class="card"><h3>Historia i średnie</h3><p>Średnia stawka, średnia miesięczna i wykres po miesiącach.</p></div>
+    <div class="card"><h3>Prywatnie</h3><p>Bez konta, reklam i śledzenia. Dane zostają na Twoim telefonie.</p></div>
+  </div>
+  <footer><span>© 2026 ideaapps.io</span><a href="privacy.html">Polityka prywatności</a><a href="support.html">Wsparcie</a></footer>
+</div>
+</body>
+</html>
