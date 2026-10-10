@@ -40,7 +40,7 @@
 
   <h1>Polityka prywatności</h1>
   <p class="updated">Aplikacja 50Groszy. Ostatnia aktualizacja: 10 października 2026</p>
-  <div class="card"><strong>Najkrócej mówiąc:</strong> 50Groszy nie ma konta, serwera ani reklam. Wszystko, co wpisujesz, zostaje na Twoim telefonie. Nie zbieramy danych osobowych, nie korzystamy z analityki i nie śledzimy użytkowników.</div>
+  <div class="card"><strong>Najkrócej mówiąc:</strong> 50Groszy nie ma konta ani reklam. Historia kolejek, kwoty i zdjęcia paragonów zostają na Twoim telefonie. Aplikacja wysyła tylko anonimowe statystyki użycia i raporty o awariach (Google Firebase). Nie sprzedajemy danych i nie śledzimy użytkowników.</div>
 
   <h2>Jakie dane zapisuje aplikacja</h2>
   <p>Lokalnie na Twoim urządzeniu zapisujemy wyłącznie dane, które powstają podczas korzystania z aplikacji:</p>
@@ -52,10 +52,25 @@
     <li>ustawienia aplikacji (np. czy stawka jest pokazywana na godzinę, minutę czy sekundę),</li>
     <li>łączną liczbę butelek „postawionych” w ramach dobrowolnych wpłat (sam licznik, bez danych płatności).</li>
   </ul>
-  <p>Dane są w lokalnej bazie na urządzeniu i nie są nigdzie wysyłane. Jeśli masz włączone kopie zapasowe iCloud lub komputera dla tego urządzenia, mogą trafić do Twojej własnej kopii. To mechanizm systemu iOS, a nie coś, co aplikacja robi samodzielnie.</p>
+  <p>Dane są w lokalnej bazie na urządzeniu. Wpisy z historii i zdjęcia nie są wysyłane. Jeśli masz włączone kopie zapasowe iCloud lub komputera dla tego urządzenia, mogą trafić do Twojej własnej kopii. To mechanizm systemu iOS, a nie coś, co aplikacja robi samodzielnie.</p>
 
   <h2>Czy aplikacja łączy się z internetem</h2>
-  <p>Do działania stopera, liczenia stawki i historii internet nie jest potrzebny. Aplikacja nie wymaga konta ani logowania i nie wyświetla reklam. Jedyne połączenie to opcjonalna dobrowolna wpłata opisana niżej, która przechodzi przez App Store.</p>
+  <p>Do działania stopera, liczenia stawki i historii internet nie jest potrzebny. Aplikacja nie wymaga konta ani logowania i nie wyświetla reklam. Połączenie z internetem służy do wysyłania anonimowych danych technicznych (Google Firebase, opisane niżej) oraz do opcjonalnej dobrowolnej wpłaty przez App Store.</p>
+
+  <h2>Statystyki użycia i raporty o awariach</h2>
+  <p>Korzystamy z Google Firebase: Analytics (statystyki użycia) i Crashlytics (raporty o awariach), żeby widzieć, które funkcje są używane, i naprawiać błędy. Przesyłane są:</p>
+  <ul>
+    <li>zdarzenia opisujące użycie aplikacji: rozpoczęcie, pauza i zakończenie kolejki, otwarcie ekranu, zmiana jednostki stawki, wpłata (która z trzech opcji, bez ceny i danych płatnika),</li>
+    <li>po zakończeniu kolejki: kwota z paragonu, liczba butelek, czas w kolejce i na pauzie, wyliczona stawka oraz informacja, czy dodano zdjęcie (samo zdjęcie nie jest wysyłane),</li>
+    <li>jeśli kolejka skończyła się bez kasy: powód (pełny butelkomat, awaria, „mam dość”) i czas, jaki zajęła,</li>
+    <li>losowy identyfikator instalacji aplikacji (nie jest powiązany z Twoim imieniem, adresem e-mail ani kontem),</li>
+    <li>model urządzenia, wersja iOS i aplikacji, język oraz przybliżona lokalizacja (kraj lub region ustalany przez Google z adresu IP),</li>
+    <li>w razie awarii: raport zawierający stan aplikacji w momencie awarii.</li>
+  </ul>
+  <p>Nie przesyłamy zdjęć paragonów, kodów z paragonów, dat ani dokładnej lokalizacji. Dane przetwarza Google jako nasz podmiot przetwarzający, zgodnie z <a href="https://policies.google.com/privacy">polityką prywatności Google</a>. Nie łączymy ich z Twoją tożsamością.</p>
+
+  <h2>Formularz zgłoszeń</h2>
+  <p>Opcja „Zgłoś poprawki” w menu „Więcej” otwiera w przeglądarce formularz Google. Dane wpisane w formularzu trafiają do nas przez Google Forms i podlegają polityce prywatności Google. Samo korzystanie z aplikacji nie wymaga używania formularza.</p>
 
   <h2>Aparat i zdjęcie paragonu</h2>
   <p>Jeśli zdecydujesz się zrobić zdjęcie paragonu, aplikacja poprosi o dostęp do aparatu. Tekst i kod z paragonu są odczytywane na urządzeniu przez system iOS (rozpoznawanie tekstu i kodów). Zdjęcie nie jest wysyłane i nie trafia do nas. Zdjęcie zostaje w pamięci aplikacji do czasu usunięcia wpisu albo aplikacji.</p>
@@ -67,16 +82,19 @@
   <p>Aplikacja jest w pełni darmowa. Możesz dobrowolnie wesprzeć twórcę jednorazową wpłatą w App Store. Płatność obsługuje wyłącznie Apple: nie widzimy i nie przechowujemy numeru karty ani innych danych płatniczych. Wpłata niczego nie odblokowuje i nie wpływa na działanie aplikacji.</p>
 
   <h2>Czego nie zbieramy</h2>
-  <p>Nie zbieramy danych osobowych, lokalizacji ani identyfikatorów reklamowych. Aplikacja nie korzysta z analityki, narzędzi śledzących ani zewnętrznych bibliotek reklamowych.</p>
+  <p>Nie zbieramy danych osobowych, dokładnej lokalizacji ani identyfikatorów reklamowych (IDFA). Aplikacja nie wyświetla reklam i nie śledzi Cię między aplikacjami.</p>
+
+  <h2>Powiadomienia</h2>
+  <p>Jeśli zezwolisz na powiadomienia, w trakcie kolejki aplikacja wyświetli kilka krótkich komentarzy (np. po 5, 11 i 20 minutach). Są to lokalne powiadomienia tworzone przez Twój telefon, nie przechodzą przez żaden serwer i nie zawierają Twoich danych. Wyłączysz je w menu „Więcej” w aplikacji albo w ustawieniach powiadomień iOS.</p>
 
   <h2>Udostępnianie danych</h2>
-  <p>Nie sprzedajemy danych i nie udostępniamy ich nikomu. Gdy sam użyjesz przycisku udostępniania, treść (np. Twoja stawka) trafia tam, gdzie ją wyślesz.</p>
+  <p>Nie sprzedajemy danych i nie udostępniamy ich nikomu poza Google, który przetwarza opisane wyżej anonimowe dane techniczne. Gdy sam użyjesz przycisku udostępniania, treść (np. Twoja stawka) trafia tam, gdzie ją wyślesz.</p>
 
   <h2>Usunięcie danych</h2>
   <p>Pojedynczy wpis usuniesz przesunięciem w lewo w historii. Wszystkie dane, razem ze zdjęciami paragonów, znikną po odinstalowaniu aplikacji.</p>
 
   <h2>Dzieci</h2>
-  <p>Aplikacja nie zbiera żadnych danych, także od dzieci.</p>
+  <p>Aplikacja nie jest skierowana do dzieci i nie zbiera danych osobowych, także od dzieci.</p>
 
   <h2>Zmiany w polityce prywatności</h2>
   <p>Jeśli zmienimy sposób działania aplikacji w sposób wpływający na prywatność, zaktualizujemy ten dokument i datę na górze strony.</p>
